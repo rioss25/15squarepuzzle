@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".GameActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn00"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:backgroundTint="@color/background"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:background="@color/light" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn01"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:backgroundTint="@color/background"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:background="@color/light" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn02"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:backgroundTint="@color/background"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:background="@color/light" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn03"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:backgroundTint="@color/background"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:background="@color/light" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn10"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:backgroundTint="@color/background"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:background="@color/light" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn11"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:backgroundTint="@color/background"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:background="@color/light" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn12"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:backgroundTint="@color/background"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:background="@color/light" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn13"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:backgroundTint="@color/background"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:background="@color/light" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn20"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:backgroundTint="@color/background"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:background="@color/light" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn21"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:backgroundTint="@color/background"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:background="@color/light" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn22"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:backgroundTint="@color/background"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:background="@color/light" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn23"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:backgroundTint="@color/background"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:background="@color/light" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn30"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:backgroundTint="@color/background"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:background="@color/light" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn31"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:backgroundTint="@color/background"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:background="@color/light" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn32"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:backgroundTint="@color/background"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:background="@color/light" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn33"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+
+                    android:backgroundTint="@color/background"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:background="@color/light" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <Button
+        android:id="@+id/shuffle_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        />
+
+
+</LinearLayout>
